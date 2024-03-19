@@ -1,0 +1,29 @@
+.App {
+  font-family: "Poppins";
+}
+.header {
+  border: 5px solid rgb(112, 112, 241);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_name {
+  font-family: "Volkhov";
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 100%;
+  color: #484848;
+}
+.header_nav {
+  display: flex;
+  gap: 60px;
+}
+.link {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #484848;
+  text-decoration: none;
+}
+
+
