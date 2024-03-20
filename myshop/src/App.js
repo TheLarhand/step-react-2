@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 import './Fonts.css';
 import Footer from './components/Footer';
@@ -13,9 +14,20 @@ function App() {
     {title: "Контакты", href: "#"},
   ]
 
+  const [city, setCity] = useState('testCity')
+
+  const changeCity = (newCity) =>{
+    setCity(newCity);
+    alert(newCity);
+}
+
   return (
     <div className="App">
-      <Header navLinks={navLinks}/>
+      <Header 
+        city={city}
+        navLinks={navLinks}
+        change={changeCity}
+      />
       <SaleSection/>
       <MainSection/>
       <Footer/>
