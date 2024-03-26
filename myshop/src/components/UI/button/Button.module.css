@@ -1,8 +1,8 @@
 .btn {
+    display: block;
     border: 0px;
     border-radius: 10px;
-    width: 152px;
-    height: 56px;
+    padding: 20px 40px;
     box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.15);
     background: #000;
     font-weight: 400;

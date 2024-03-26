@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import Link from './UI/link/Link.jsx';
-import Button from './UI/button/Button.jsx';
-import Input from './UI/input/Input.jsx';
+import Link from '../UI/link/Link.jsx';
+import Button from '../UI/button/Button.jsx';
+import Input from '../UI/input/Input.jsx';
+import classes from './HeaderNav.module.css'
 
-function Header({ navLinks, city, change }) {
+const HeaderNav = ({ navLinks, city, change }) => {
     const [newCity, setNewCity] = useState('');
 
     const changeNewCity = () => {
@@ -12,13 +13,13 @@ function Header({ navLinks, city, change }) {
     };
 
     return (
-        <header className="header">
+        <div className={classes.wrapper}>
             <div>
-                <h2 className='header_name'>SHOP</h2>
+                <h2 className={classes.name}>SHOP</h2>
                 <p>{city}</p>
             </div>
             
-            <nav className='header_nav'>
+            <nav className={classes.nav}>
                 {navLinks.map((navLink, index) => 
                     <Link key={index} href={navLink.href}>
                         {navLink.title}
@@ -26,12 +27,12 @@ function Header({ navLinks, city, change }) {
                 )}
             </nav>
             
-            <div>
+            <div className={classes.inputBlock}>
                 <Input onChange={e => setNewCity(e.target.value)} />
-                <Button onClick={changeNewCity}>выбрать</Button>
+                <Button onClick={changeNewCity}>Select city</Button>
             </div>
-        </header>
+        </div>
     );
-}
+};
 
-export default Header;
+export default HeaderNav;

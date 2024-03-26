@@ -1,0 +1,9 @@
+.wrapper {
+    height: fit-content;
+}
+.input {
+    height: 25px;
+    width: 200px;
+    border: 2px solid #868686;
+    border-radius: 5px;
+}

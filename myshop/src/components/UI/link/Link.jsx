@@ -6,7 +6,7 @@ const Link = ({children, ...props}) => {
     return (
             <a className={classes.link} {...props}>
                 {children}
-            </a>
+            </a>          
     );
 };
 

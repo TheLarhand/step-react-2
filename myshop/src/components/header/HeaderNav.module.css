@@ -1,0 +1,23 @@
+.wrapper {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name {
+    font-family: "Volkhov";
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 100%;
+    color: #484848;
+}
+.nav {
+    display: flex;
+    gap: 60px;
+}
+.inputBlock {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
