@@ -20,9 +20,7 @@ const HeaderInfo = ({products}) => {
                 <div className={classes.centerBox}>
                     <h1>ULTIMATE <br/> SALE</h1>
                     <h3>We have {products.length} products!</h3>
-                    <Button>SHOP NOW
-                        fix me
-                    </Button>
+                    <Button>SHOP NOW</Button>
                 </div>
 
                 <div className={classes.smallBox}>

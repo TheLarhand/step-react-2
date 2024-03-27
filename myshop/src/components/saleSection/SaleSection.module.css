@@ -1,0 +1,22 @@
+.background {
+    border: 2px solid green;
+    background: linear-gradient(180deg, #fff 0%, #fafafa 100%);
+    width: 100%;
+    height: 882px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    border: 2px solid rgb(23, 0, 128);
+    width: 1280px;
+    height: 582px;
+    display: grid;
+    grid-template-columns: 444px 1fr;
+}
+.info {
+    border: 2px solid rgb(23, 0, 128);
+}
+.slider {
+    border: 2px solid rgb(23, 0, 128);
+}

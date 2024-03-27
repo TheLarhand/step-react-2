@@ -4,3 +4,7 @@
     justify-content: space-between;
     gap: 40px;
 }
+.more {
+    margin: 30px auto;
+    width: fit-content;
+}
