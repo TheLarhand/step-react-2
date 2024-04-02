@@ -14,9 +14,3 @@
     display: grid;
     grid-template-columns: 444px 1fr;
 }
-.info {
-    border: 2px solid rgb(23, 0, 128);
-}
-.slider {
-    border: 2px solid rgb(23, 0, 128);
-}

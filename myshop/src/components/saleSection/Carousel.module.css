@@ -1,0 +1,31 @@
+.wrapper {
+    width: 840px;
+    
+}
+.window {
+    overflow: hidden;
+    position: relative;
+}
+.elements {
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+.element {
+    width: 400px;
+    height: 550px;
+    background-size: cover;
+}
+.btnDisplay {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    left: 440px;
+    top: 450px;
+
+}
+.btn {
+
+}

@@ -1,8 +1,4 @@
-.block {
-    border-radius: 10px;
-    box-shadow: 0 40px 90px 0 rgba(0, 0, 0, 0.06);
-    background: #fff;
-}
+
 .wrapper {
     width: 386px;
     height: 438px;
@@ -12,9 +8,13 @@
     justify-content: center;
     gap: 20px;
 }
-.wrapper img {
+.imgBox{
     width: 336px;
+    height: 244px;
+    background-size: cover;
+    border-radius: 10px;
 }
+
 .wrapper h3 {
     font-weight: 500;
     font-size: 20px;
@@ -25,51 +25,4 @@
     font-size: 12px;
     line-height: 100%;
     color: #8a8a8a;
-}
-.popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-.detail_back {
-    background-color: rgba(0, 0, 0, 0.247);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-.detail {
-    position: relative;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1280px;
-    height: 600px;
-    display: flex;
-    justify-content: space-between;
-}
-.image {
-    width: 40%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    border-radius:  10px 0 0 10px;
-}
-.info {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.info h2 {
-    font-size: 40px;
-}
-.info p {
-    font-size: 20px;
-}
-.info button {
-    width: 200px;
 }
