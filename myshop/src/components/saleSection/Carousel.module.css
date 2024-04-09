@@ -1,6 +1,6 @@
 .wrapper {
     width: 840px;
-    
+    position: relative;
 }
 .window {
     overflow: hidden;
@@ -11,6 +11,12 @@
     display: flex;
     gap: 20px;
     margin-left: 20px;
+
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+
 }
 .element {
     width: 400px;
@@ -18,13 +24,16 @@
     background-size: cover;
 }
 .btnDisplay {
+    z-index: 10;
     width: 400px;
     height: 100px;
     position: absolute;
-    background-color: white;
+    background-color: #fafafa;
     left: 440px;
     top: 450px;
-
+    padding: 20px;
+    display: flex;
+    gap: 20px;
 }
 .btn {
 
